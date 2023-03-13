@@ -12,7 +12,7 @@ export default function Auth() {
     e.preventDefault();
     if (username.lengt === 0 || secret.lengt === 0) return;
 
-    axios.put('https://api.chatengine.io/users/', { username, secret }, { headers: { 'Private-key': '32ff7663-7d35-4635-b846-f7648e9540e4' } }).then((r) => router.push('/chats'));
+    axios.put('https://api.chatengine.io/users/', { username, secret }, { headers: { 'Private-key': '75be101a-6b9c-407e-920b-69e6709b25fb' } }).then((r) => router.push('/chats'));
   }
 
   return (
