@@ -29,7 +29,7 @@ export default function Chats() {
   return (
     <div className="background">
       <div className="shadow">
-        <ChatEngine height="calc(100vh - 200px)" projectID="adb7a231-85a6-4328-9086-9cf6b094148b" userName={username} userSecret={secret} renderNewMessageForm={() => <MessageFormSocial />} />
+        <ChatEngine height="calc(100vh - 200px)" projectID="cfc7b817-5b4a-46d6-b4d5-67bbfbec8581" userName={username} userSecret={secret} renderNewMessageForm={() => <MessageFormSocial />} />
       </div>
     </div>
   );
